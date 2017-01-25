@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="com.example.abuosama.viewpagerwithdatabaseex.SavingFrag">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="enter a name"
+       android:textColor="#000"
+       android:textColorHint="#000"
+       android:textAlignment="center"
+       android:id="@+id/edittext1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter a ssub"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textColorHint="#000"
+        android:id="@+id/edittext2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter a email"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textColorHint="#000"
+        android:id="@+id/edittext3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000"
+        android:text="save"
+        android:background="#FFF0"
+        android:id="@+id/button1"/>
+
+
+</LinearLayout>
